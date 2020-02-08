@@ -1,7 +1,11 @@
 {
-  "name": "proje-5",
-  "version": "0.1.0",
-  "private": true,
+  "name": "grkanbulca-tag-component",
+  "version": "1.0.0",
+  "description": "Simple tags component with vue-resource support",
+  "main": "Tags.vue",
+  "keywords": ["vue","grkanbulca","tag"],
+  "author": {"name":"grkanbulca"},
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -9,7 +13,8 @@
   },
   "dependencies": {
     "core-js": "^3.6.4",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vue-resource": "^1.5.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.2.0",
